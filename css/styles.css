@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Rampart+One&display=swap');
+
+body{
+    font-family: 'Rampart One', cursive;
+}
+#botones{
+    width: 100%;
+    min-height: 100vh;  
+    text-align: center;
+    padding: 100px 0px;
+    background: url("../img/descarga.jpg");
+    background-size: cover;
+}
+#botones button {
+    padding: 14px 30px;
+    background:transparent;
+    border: 2px solid #000;
+    color:white;
+    font-size: 24px;
+    text-transform: uppercase;
+    margin: 15px;
+    border-radius: 15px;
+    transition: .5s;
+}
+#botones h1{
+    color:blueviolet;
+    font-size: 45px;
+    font-family: 'Rampart One', cursive;
+}
+#botones button:hover{
+    background: #fff;
+    color: #000;
+    padding: 14px 50px;
+}
+
+
+
+/* Estilos ejercicio figura */
+#contPrincipal {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    padding: 80px;
+    background: #000;
+}
+#contPrincipal #botones{
+    width: 40%;
+    padding: 30px;
+    text-align: center;
+    border: 2px solid #580c10;
+    color: antiquewhite;
+}
+#contPrincipal {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    padding: 80px;
+    background: #000;
+}
+#contPrincipal #conFigura{
+    width: 40%;
+    padding: 30px;
+    text-align: center;
+    border: 2px solid #580c10;
+    color: antiquewhite;
+}
+#figura{
+    width: 200px;
+    height: 200px;
+    background: #ffff;
+    margin: 40px auto;
+    transition: .5s;
+
+}
+#figura.Circulo{
+    border-radius: 50%;
+    transition: .5s;
+}
+#figura.Rectangulo{
+    width: 400px;
+    height: 200px;
+    transition: .5s;
+}
+#figura.Rombo{
+    transform: rotate(45deg);
+    transition: .5s;
+}
+#figura.Gif{
+    background: url("../img/gojo-satoru-jujutsu-kaisen.gif");
+    background-size: cover;
+    transition: .5s;
+}
+#figura.Izquierda{
+    transform: translateX(-200px);
+    transition: .5s;
+}
+#figura.Derecha{
+    transform: translateX(200px);
+    transition: .5s;
+}
+#figura.Arriba{
+    transform: translateY(-150px);
+    transition: .5s;
+}
+#figura.Abajo{
+    transform: translateY(400px);
+    transition: .5S;
+}
+#figura.Diagonal{
+    transform: translate(100px,200px);
+    transition: .5s;
+}
